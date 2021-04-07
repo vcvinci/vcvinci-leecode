@@ -76,7 +76,9 @@ public class BinaryTreeNode<V> {
         breadthFirstSearch(head);
     }
 
-    // 中序遍历 是顺序的
+    /**
+     *  中序遍历 是顺序的 1 4 5 6 7 9 16
+     */
     public static void recursionMiddleOrder(BinaryTreeNode<Integer> head) {
         if (head == null) {
             return;
